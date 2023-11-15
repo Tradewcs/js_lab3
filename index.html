@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1>Password Manager</h1>
+    <div class="pass-table-div">
+        <table id="passwordList">
+        </table>
+    </div>
+    
+    <button id="addPasswordButton">Add Password</button>
+   
+    <div id="dialog" class="hidden">
+        <div class="dialog-content">
+            <h2>Add User</h2>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button id="addButton">Add</button>
+            <button id="closeButton" class="close-button">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
